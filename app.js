@@ -17,6 +17,6 @@ smallImg.forEach(function (img) {
 modal.addEventListener("click", function (e) {
   if (e.target.classList.contains("modal")) {
     modal.classList.remove("open");
-    fullImg.classList.remove("close");
+    fullImg.classList.remove("open");
   }
 });
